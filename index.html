@@ -7,7 +7,12 @@ TypeScript Starter
 <script src="node_modules/systemjs/dist/system.js"></script>
 <script src="node_modules/typescript/lib/typescript.js"></script>
 <script>
-    System.config({transpiler: "typescript"});
+    System.config({
+        transpiler: "typescript",
+        map: {
+            "trim": "node_modules/trim/index.js"
+        }
+    });
     System.import("tester.ts");
 </script>
 </body>
