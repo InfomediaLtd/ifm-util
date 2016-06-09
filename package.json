@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "systemjs": "^0.19.29",
+    "typescript": "^1.8.10"
+  }
+}
